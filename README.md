@@ -1,4 +1,4 @@
-# Dodge TheLog
+# Dodge The Log
 > Timberman inspired HTML5 Canvas, CSS, JS game
 
 ---
