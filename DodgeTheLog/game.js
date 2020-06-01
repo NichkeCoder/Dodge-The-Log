@@ -116,7 +116,7 @@ window.addEventListener("keydown", ((evt) => {
         const key = evt.key.replace("Arrow", "");
         if (playerMove(key)) {
             score++;
-            timer -= 10 / 60 / 20;
+            timer =  timer > 5 / 60 / 20 ? timer - 5 / 60 / 20 : 0;
             generateNewTile();
         }
         else
